@@ -27,8 +27,7 @@
 {
     [super viewDidLoad];
     self.title = @"My Title";
-    UIFont *font = [UIFont fontWithName:@"Fairview" size:45];
-    self.fontLabel.font = font;
+    
     
 }
 

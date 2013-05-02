@@ -20,6 +20,7 @@
 		AF93BFB01731DF3D00F10C64 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF93BFAE1731DF3D00F10C64 /* MyViewController.xib */; };
 		AF93BFB61731E2C400F10C64 /* Fairview_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF93BFB41731E2C400F10C64 /* Fairview_Regular.otf */; };
 		AF93BFB71731E2C400F10C64 /* Fairview_SmallCaps.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF93BFB51731E2C400F10C64 /* Fairview_SmallCaps.otf */; };
+		AF93BFBF1731E91400F10C64 /* FairviewLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF93BFBE1731E91400F10C64 /* FairviewLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		AF93BFAE1731DF3D00F10C64 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyViewController.xib; path = CustomFontStuff/MyViewController.xib; sourceTree = "<group>"; };
 		AF93BFB41731E2C400F10C64 /* Fairview_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fairview_Regular.otf; sourceTree = "<group>"; };
 		AF93BFB51731E2C400F10C64 /* Fairview_SmallCaps.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fairview_SmallCaps.otf; sourceTree = "<group>"; };
+		AF93BFBD1731E91400F10C64 /* FairviewLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FairviewLabel.h; path = CustomFontStuff/FairviewLabel.h; sourceTree = "<group>"; };
+		AF93BFBE1731E91400F10C64 /* FairviewLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FairviewLabel.m; path = CustomFontStuff/FairviewLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				AF93BFAC1731DF3D00F10C64 /* MyViewController.h */,
 				AF93BFAD1731DF3D00F10C64 /* MyViewController.m */,
 				AF93BFAE1731DF3D00F10C64 /* MyViewController.xib */,
+				AF93BFBD1731E91400F10C64 /* FairviewLabel.h */,
+				AF93BFBE1731E91400F10C64 /* FairviewLabel.m */,
 				AF93BF951731DF1A00F10C64 /* CustomFontStuff */,
 				AF93BF8E1731DF1A00F10C64 /* Frameworks */,
 				AF93BF8D1731DF1A00F10C64 /* Products */,
@@ -193,6 +198,7 @@
 				AF93BF9C1731DF1A00F10C64 /* main.m in Sources */,
 				AF93BFA01731DF1A00F10C64 /* AppDelegate.m in Sources */,
 				AF93BFAF1731DF3D00F10C64 /* MyViewController.m in Sources */,
+				AF93BFBF1731E91400F10C64 /* FairviewLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
